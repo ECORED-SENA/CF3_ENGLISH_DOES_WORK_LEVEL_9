@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="819" height="120" viewBox="0 0 819 120">
+  <g id="Group_983103" data-name="Group 983103" transform="translate(-327 -3169)">
+    <rect id="Rectangle_338512" data-name="Rectangle 338512" width="150" height="97" rx="9" transform="translate(327 3181)" fill="#f0f4ff"/>
+    <rect id="Rectangle_338515" data-name="Rectangle 338515" width="150" height="120" rx="9" transform="translate(804 3169)" fill="#fcf2ca"/>
+    <rect id="Rectangle_338516" data-name="Rectangle 338516" width="172" height="120" rx="9" transform="translate(974 3169)" fill="#8284d2"/>
+    <rect id="Rectangle_338514" data-name="Rectangle 338514" width="106" height="65" rx="9" transform="translate(675 3198)" fill="#ff9fa3"/>
+    <text id="Verb_Verbo_verb_in_base_form_verbo_en_forma_base" data-name="Verb / Verbo
+verb in base form / verbo en forma base" transform="translate(820 3184)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-44.836" y="17">Verb / </tspan><tspan y="17" font-family="Roboto-Bold, Roboto" font-style="normal">Verbo</tspan><tspan font-family="Roboto-Italic, Roboto" font-weight="400"><tspan x="-41.961" y="41">verb in base </tspan><tspan x="-54.414" y="65">form</tspan><tspan y="65" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-style="normal"> / verbo en </tspan><tspan x="-40.594" y="89" font-family="Roboto-Regular, Roboto" font-style="normal">forma base</tspan></tspan></text>
+    <text id="Complement_Complemento_more_information_más_información" data-name="Complement / Complemento
+…more information / …más información" transform="translate(987 3184)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-49.988" y="17">Complement / </tspan><tspan x="-50.473" y="41" font-family="Roboto-Bold, Roboto" font-style="normal">Complemento</tspan><tspan y="41" font-family="Roboto-Regular, Roboto" font-weight="400" font-style="normal"></tspan><tspan font-family="Roboto-Italic, Roboto" font-weight="400"><tspan x="-71" y="65">…more information</tspan><tspan y="65" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-style="normal"> / </tspan><tspan x="-65.691" y="89" font-family="Roboto-Regular, Roboto" font-style="normal">…más información</tspan></tspan></text>
+    <text id="supposed_to" data-name="supposed to" transform="translate(688 3209)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-34.32" y="17">supposed </tspan><tspan x="-6.969" y="41">to</tspan></text>
+    <text id="_" data-name="+" transform="translate(481 3220)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-4.273" y="17">+</tspan></text>
+    <text id="_2" data-name="+" transform="translate(785 3220)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-4.273" y="17">+</tspan></text>
+    <text id="_3" data-name="+" transform="translate(955 3220)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-4.273" y="17">+</tspan></text>
+    <text id="_4" data-name="+" transform="translate(651 3220)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-4.273" y="17">+</tspan></text>
+    <g id="Group_983078" data-name="Group 983078">
+      <text id="Subject_Sujeto_I_he_she_it_we_you_they" data-name="Subject / Sujeto
+I / he / she / it 
+we / you / they" transform="translate(341 3196)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-style="italic" font-weight="700"><tspan x="-56.441" y="17">Subject /</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Bold, Roboto" font-style="normal"> Sujeto</tspan><tspan font-family="Roboto-Italic, Roboto" font-weight="400"><tspan x="-49.086" y="41">I / he / she / it </tspan><tspan x="-51.469" y="65">we / you / they</tspan></tspan></text>
+      <line id="Line_1542" data-name="Line 1542" x2="109" transform="translate(348.5 3244.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+    </g>
+    <g id="Group_983079" data-name="Group 983079">
+      <rect id="Rectangle_338513" data-name="Rectangle 338513" width="150" height="120" rx="9" transform="translate(500 3169)" fill="#c4d1ff"/>
+      <text id="_to_be_in_past_en_pasado_was_were" data-name="“to be” in past  / en pasado 
+was
+were" transform="translate(516 3184)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-style="italic" font-weight="700"><tspan x="-56.531" y="17" xml:space="preserve">“to be” in past  / </tspan><tspan x="-37.023" y="41" font-family="Roboto-Bold, Roboto" font-style="normal">en pasado </tspan><tspan font-family="Roboto-Italic, Roboto" font-weight="400"><tspan x="-14.172" y="65">was</tspan><tspan x="-16.758" y="89">were</tspan></tspan></text>
+      <line id="Line_1543" data-name="Line 1543" x2="109" transform="translate(520.5 3256.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

@@ -17,3 +17,30 @@
 
   100%
     transform: translateY(0px)
+
+.tarjeta-corazon
+  position: relative
+  &:before
+    content: url(../assets/curso/temas/intro/adorno.svg)
+    position: absolute
+    bottom: 0
+    left: 0
+    transform: translateY(50%)
+    z-index: 1
+.contenedor-dialogo
+  &__dialogo
+    background-image: url(../assets/curso/temas/intro/bg-intro.svg)
+.bg-intro
+  background-image: url(../assets/curso/temas/intro/bg-intro.svg)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  opacity: 1
+  border: 0
+.slyder-a__bullets__item
+  background-color: #fff0b5
+  border: 0
+.slyder-a__bullets__item--active 
+  background-color: #fed947

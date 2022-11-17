@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      '<em>I was going to go on vacation, but the pandemic hit</em> <br> <span class= r--4>Yo iba a ir de vacaciones, pero la pandemia llegó</span>',
+    descripcionCurso:
+      'Este componente se enfocará en cómo contar historias del pasado, y para esto, se aprenderá no solo sobre la estructura de una historia, sino también sobre el uso de conectores que nos sirven para ordenar temporalmente la historia a la hora de contarla; también aprenderá sobre las expresiones <em><b>“was/were going to”</b></em> y <em><b>“was/were supposed to”</b></em>, que nos indican desde el tiempo pasado algo que se esperaba que se hiciera en el futuro. Por último, aprenderemos conceptos de pronunciación que nos ayudarán con nuestra habilidad del habla.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
