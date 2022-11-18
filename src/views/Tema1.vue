@@ -11,10 +11,11 @@
         .col-lg-4.col-6: img(src='@/assets/curso/temas/tema1/1.svg', alt='')
         .col-lg-8 
           //TODO: Añadir traduccion de este texto
-          traductor.color-primario(
-            textoIngles='There are certain types of connectors that serve as time expressions to narrate and explain things that happened in the past in an orderly manner. These connectors are words (or groups of words) that link the sentences together and establish some relationship between them; in the case of these temporal expressions, it is a sequential relationship that explains, in an orderly manner, what happened before, during, and after in a story.'
-            textoEspanol=''
-          )
+          traductor.color-primario
+            div(slot="textoIngles")
+              p #[em There are certain types of connectors that serve as time expressions to narrate and explain things that happened in the past in an orderly manner. These connectors are words (or groups of words) that link the sentences together and establish some relationship between them; in the case of these temporal expressions, it is a sequential relationship that explains, in an orderly manner, what happened before, during, and after in a story.]
+            div(slot="textoEspanol")
+              p Hay ciertos tipos de conectores que sirven como expresiones temporales para narrar y explicar cosas que pasaron en el pasado de manera ordenada. Estos conectores son palabras (o grupos de palabras) que unen las oraciones y establecen alguna relación entre ellas; en el caso de estas expresiones temporales, es una relación secuencial que explica, de manera ordenada, lo que pasó antes, durante y después en una historia.
       .row.justify-content-center.mb-5
         .col-lg-11
           .tarjeta(style="background-color: #fff0f1").p-4 

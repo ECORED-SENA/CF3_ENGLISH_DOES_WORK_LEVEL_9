@@ -2,9 +2,9 @@
 .traductor.mb-5
   .contenedor-traductor.mb-5
     .contenedor-traductor__eng
-      p.fst-italic(v-html="textoIngles")
+      slot(name="textoIngles").fst-italic
     .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-      p(v-html="textoEspanol")
+      slot(name="textoEspanol")
     a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
 </template>
 
