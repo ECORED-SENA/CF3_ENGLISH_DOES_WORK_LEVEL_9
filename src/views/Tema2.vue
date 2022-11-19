@@ -10,10 +10,13 @@
       .col-lg-4.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/1.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         //TODO: Añadir traduccion de este texto
-        traductor.color-primario(
-          textoIngles='Future in the past is used to express the idea that in the past you thought something would happen in the future. It doesn’t matter if you are correct or not.<br>We often use <span class= r--2><b>was/were going to</b></span> or <span class= r--2><b>was/were supposed to to</b></span> apologize for not doing something. We usually give a reason.'
-          textoEspanol=''
-        )
+        traductor.color-primario
+          div(slot="textoIngles")
+              p.fst-italic Future in the past is used to express the idea that in the past you thought something would happen in the future. It doesn’t matter if you are correct or not.<br>We often use <span class= r--2><b>was/were going to</b></span> or <span class= r--2><b>was/were supposed to to</b></span> apologize for not doing something. We usually give a reason.
+          div(slot="textoEspanol")
+            p El futuro en el pasado se usa para expresar la idea que en el pasado usted pensó que algo sucedería en el futuro. No importa si usted está en lo correcto o no.
+              br
+              |A menudo, usamos #[b #[em was/were going to]] o #[b #[em was/were]] supposed to para disculparse por no hacer algo. Normalmente, damos una razón.
     p.mb-5(data-aos='fade-right')
       span.r--1 The expressions that we are going to use to indicate the future in the past tense are "was/were going to" and "was/were supposed to". Let's see some examples:
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--morada")
@@ -35,7 +38,7 @@
                 .col-lg-9
                   TarjetaAudio.color-acento-contenido.mb-3(
                       texto="Sofía was going to spend this weekend in Cartagena, but there were no hotel rooms available."
-                      :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema2/01.mp3')"
                     )
                   p.ms-4 Sofía iba a pasar este fin de semana en Cartagena, pero no había habitaciones de hotel disponibles.
             .col-lg-7
@@ -91,7 +94,7 @@
                 .col-lg-9
                   TarjetaAudio.color-acento-contenido.mb-3(
                       texto="You were supposed to call mom in an hour, but you left your phone at home."
-                      :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/tema2/02.mp3')"
                     )
                   p.ms-4 Se suponía que ibas a llamar a mamá en una hora, pero dejaste tu teléfono en casa.
             .col-lg-7
@@ -131,10 +134,15 @@
       .row.justify-content-center.mb-5
         .col-lg-5.col-6(data-aos="fade-right")
           //TODO: Añadir traduccion de este texto
-          traductor.color-primario.mb-5(
-            textoIngles='In sentences with the expressions <span class= r--2><b>“was/were going to”</b> </span>and  <span class= r--2><b>“was/were supposed to”</b></span>, the main verb is always written in base form. Then you can also add sentences (sometimes in the form of an apology) that explain the reasons why what was planned or agreed was not carried out. <br><br> Let’s see in the context of a conversation how these types of expressions can be used:'
-            textoEspanol=''
-          )
+          traductor.color-primario.mb-5
+            div(slot="textoIngles")
+              p.fst-italic In sentences with the expressions <span class= r--2><b>“was/were going to”</b> </span>and  <span class= r--2><b>“was/were supposed to”</b></span>, the main verb is always written in base form. Then you can also add sentences (sometimes in the form of an apology) that explain the reasons why what was planned or agreed was not carried out. <br><br> Let’s see in the context of a conversation how these types of expressions can be used: 
+            div(slot="textoEspanol")
+              p En oraciones con las expresiones #[b #[em "was/were going to"]] y #[b #[em "was/were supposed to"]], siempre se escribe el verbo principal en forma base. Después, también se pueden añadir frases (a veces en forma de disculpa) que expliquen los motivos de por qué lo planeado o acordado no se llevó a cabo.
+                br
+                br
+                |Veamos, en el contexto de una conversación, cómo se pueden usar este tipo de expresiones:
+
           img.mt-5(src='@/assets/curso/temas/tema2/4.jpg', alt='' style='border-radius: 20px')
         .col-lg-7
           .contenedor-dialogo
@@ -151,9 +159,9 @@
                             span.text-white Gabriel, weren’t you 
                             span.r--3 supposed to 
                             span.text-white travel abroad these days?
-                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema2/d1.mp3')")
                         .contenedor-traductor__esp(:class="{ mostrar: dial1}")
-                          p 
+                          p Gabriel, ¿no se suponía que viajarías al extranjero por estos días?
                         a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fed947') Ver traducción
                   .row.justify-content-center.align-items-center.mb-2
                     .col-10 
@@ -163,9 +171,9 @@
                             span.r--3 Yes, I was 
                               span.r--2 supposed to 
                               | catch the flight to Boston by the end of this month.
-                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema2/d2.mp3')")
                         .contenedor-traductor__esp(:class="{ mostrar: dial2}")
-                          p 
+                          p Sí, se suponía que tomaría un vuelo a Boston a finales de este mes.
                         a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fed947') Ver traducción
                     .col-2
                       h3(style='color: #3c3fa7 ')  Gabriel
@@ -176,9 +184,9 @@
                       .contenedor-traductor.mb-5(style='background-color: #8284d2')
                         .contenedor-traductor__eng.d-flex.justify-content-between
                           p.fst-italic.text-white  You told me something like that the last time we spoke, but what exactly happened?
-                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema2/d3.mp3')")
                         .contenedor-traductor__esp(:class="{ mostrar: dial3}")
-                          p 
+                          p Me dijiste algo así la última vez que hablamos, pero ¿qué pasó exactamente?
                         a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fed947') Ver traducción
                   .row.justify-content-center.align-items-center.mb-2
                     .col-10 
@@ -188,19 +196,31 @@
                             span.r--3 The thing is that I 
                               span.r--2 was going to 
                               | study English this upcoming semester in the U.S., but my student visa was delayed.
-                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/1.mp3')")
+                          Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema2/d4.mp3')")
                         .contenedor-traductor__esp(:class="{ mostrar: dial4}")
-                          p 
+                          p El caso es que iba a estudiar inglés el próximo semestre en los Estados Unidos, pero mi visa de estudiante se retrasó.
                         a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fed947') Ver traducción
                     .col-2
                       h3(style='color: #3c3fa7 ')  Gabriel
       .row.justify-content-center.mb-5
         .col-lg-5(data-aos="fade-right")
           //TODO: Añadir traduccion de este texto
-          traductor.color-primario(
-            textoIngles='Future in the past is used to express the idea that in the past you thought something would happen in the future. It doesn’t matter if you are correct or not.<br>We often use <span class= r--2><b>was/were going to</b></span> or <span class= r--2><b>was/were supposed to to</b></span> apologize for not doing something. We usually give a reason.'
-            textoEspanol=''
-          )
+          traductor.color-primario
+            div(slot="textoIngles")
+                p.fst-italic When we speak with the expressions 
+                  span.r--2.fst-italic.fw-bold “was/were going to” 
+                  | or 
+                  span.r--2.fst-italic.fw-bold “was/were supposed to”
+                  | , it implies that someone expects some action to be carried out 
+                  span.r--2.fst-italic.fw-bold in the past 
+                  | or 
+                  span.r--2.fst-italic.fw-bold in the future.
+                  | To differentiate between these two tenses, time markers can be used to indicate whether it is something that was planned or expected to be done in the past or in the future.
+            div(slot="textoEspanol")
+                p Cuando se habla de las expresiones #[em #[b "was/were going to"]] o #[em #[b "was/were supposed to"]], implica que alguien espera que se realizara alguna acción en el pasado o en el futuro. Para hacer la diferencia entre estos dos tiempos, se pueden utilizar marcadores temporales para señalar si es algo que se planeaba hacer o que se tenía la expectativa de que se realizara en el pasado o en el futuro.
+                  br
+                  |Por ejemplo, no es lo mismo:
+
         .col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/6.jpg', alt='' style='border-radius: 20px')
       h4.text-center.fst-italic For example, it is not the same:
       .row.justify-content-center.mb-5
@@ -209,14 +229,14 @@
             img(src='@/assets/curso/temas/tema2/7.svg', alt='' style="width: 103px ").me-4 
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="We were supposed to go to the beach yesterday, but it rained. (past)"
-                :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                :audio="require('@/assets/curso/temas/audios/tema2/03.mp3')"
               )
         .col-lg-5
           .tarjeta.p-4.d-flex.aling-items-center.h-100(style='background-color: #6b8dfc')
             img(src='@/assets/curso/temas/tema2/7.svg', alt='' style="width: 103px ").me-4 
             TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="We were supposed to go to the beach tomorrow, but the weather forecast says that it is going to rain. (future)"
-                :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                :audio="require('@/assets/curso/temas/audios/tema2/04.mp3')"
               )
     p.mb-5(data-aos='fade-right') 
       span.r--3 Now let’s see the sentence structures with “was/were going to” or “was/were supposed to”. 
@@ -238,7 +258,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="He was <span class= r--2>going to</span> visit his girlfriend tomorrow night."
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/05.mp3')"
                     )
                     p.ms-4 (Él) Iba a visitar a su novia mañana por la noche.
                 .row
@@ -247,7 +267,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="We were <span class= r--2>going to</span> spend time with our grandma abroad next summer."
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/06.mp3')"
                     )
                     p.ms-4 (Nosotros) Íbamos a pasar tiempo con nuestra abuela en el extranjero el próximo verano.
               div.px-3
@@ -262,7 +282,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="He was not <span class= r--2>going to </span> visit his girlfriend tomorrow night."
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/07.mp3')"
                     )
                     p.ms-4 (Él) No iba a visitar a su novia mañana por la noche.
                 .row
@@ -271,7 +291,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="We were not <span class= r--2>going to </span> spend time with our grandma abroad next summer."
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/08.mp3')"
                     )
                     p.ms-4 (Nosotros) No íbamos a pasar tiempo con nuestra abuela en el extranjero el próximo verano.
               div.px-3
@@ -286,7 +306,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="Was he <span class= r--2> going to</span> visit his girlfriend tomorrow night?"
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/09.mp3')"
                     )
                     p.ms-4 ¿(Él) Iba a visitar a su novia mañana por la noche?
                 .row
@@ -295,7 +315,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="Were we <span class= r--2> going to</span> spend time with our grandma abroad next summer?"
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/10.mp3')"
                     )
                     p.ms-4 ¿(Nosotros) Íbamos a pasar tiempo con nuestra abuela en el extranjero el próximo verano?
               div.px-3
@@ -310,7 +330,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="Who was he <span class= r--2>going to</span> visit tomorrow night?"
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/11.mp3')"
                     )
                     p.ms-4 ¿(Él) A quién iba a visitar mañana por la noche?
                 .row
@@ -319,7 +339,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="When were we <span class= r--2>going to</span> spend time with our grandma abroad?"
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/12.mp3')"
                     )
                     p.ms-4 ¿(Nosotros) Cuándo íbamos a pasar tiempo con nuestra abuela en el extranjero?
               div.px-3
@@ -334,7 +354,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="I was <span class= r--2>supposed to</span> work next monday."
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/13.mp3')"
                     )
                     p.ms-4 Se suponía que (yo) iba a trabajar el próximo lunes.
                 .row
@@ -343,7 +363,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="They were <span class= r--2>supposed to</span> travel to Europe by the end of this year."
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/14.mp3')"
                     )
                     p.ms-4 Se suponía que (ellos) viajarían a Europa a finales de este año.
               div.px-3
@@ -358,7 +378,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="I was not <span class= r--2>supposed to</span> work next monday."
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/15.mp3')"
                     )
                     p.ms-4 Se suponía que (yo) no trabajaría el próximo lunes.
                 .row
@@ -367,7 +387,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="They were not <span class= r--2>supposed to</span> travel to Europe by the end of this year."
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/16.mp3')"
                     )
                     p.ms-4 Se suponía que (ellos) no viajarían a Europa a finales de este año.
               div.px-3
@@ -382,7 +402,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="Was I <span class= r--2>supposed to</span> work next monday?"
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/17.mp3')"
                     )
                     p.ms-4 ¿Se suponía que (yo) iba a trabajar el próximo lunes?
                 .row
@@ -391,7 +411,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="Were they <span class= r--2>supposed to</span> travel to Europe by the end of this year?"
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/18.mp3')"
                     )
                     p.ms-4 ¿Se suponía que (ellos) viajarían a Europa a finales de este año?
               div.px-3
@@ -406,7 +426,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="When was I <span class= r--2>supposed to</span> work? "
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/19.mp3')"
                     )
                     p.ms-4 ¿Cuándo se suponía que (yo) iba a trabajar?
                 .row
@@ -415,7 +435,7 @@
                   .col-lg-8
                     TarjetaAudio.color-acento-contenido.bg-white.mb-3.d-block(
                     texto="Where were they <span class= r--2>supposed to</span> travel by the end of this year?"
-                    :audio="require('@/assets/curso/temas/audios/1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/tema2/20.mp3')"
                     )
                     p.ms-4 ¿Adónde se suponía que (ellos) viajarían a finales de este año?
     p.mb-5(data-aos='fade-right') 
@@ -458,7 +478,7 @@ export default {
           textoIng:
             'What a bummer! Wasn’t they supposed to ***  you the visa less than 2 months after it was approved?',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/1.mp3'),
+          audio: require('@/assets/curso/temas/audios/tema2/a1.mp3'),
           palabra: 'give',
         },
 
@@ -467,7 +487,7 @@ export default {
           textoIng:
             'That was what they were *** to do, that was what they agreed to.',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/1.mp3'),
+          audio: require('@/assets/curso/temas/audios/tema2/a2.mp3'),
           palabra: 'supposed',
         },
       ],
@@ -485,8 +505,7 @@ export default {
 </script>
 
 <style lang="sass">
-.tarjeta--morada
-  background-color: #acade1
+
 .acordion__accion__btn--b
   border: 0
   background-color: $color-acento-botones

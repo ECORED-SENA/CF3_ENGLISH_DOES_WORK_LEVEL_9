@@ -9,11 +9,31 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/a2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/a3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/l1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/l2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6'],
+        imagen: require('@/assets/curso/portada/l3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-7'],
+        imagen: require('@/assets/curso/portada/l4.svg'),
       },
     ],
   },
@@ -34,38 +54,80 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em> Expressions in the past</em> (Expresiones en pasado) ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          '<em> Expressions to indicate future in the past</em> (Expresiones para indicar futuro en tiempo pasado)',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          '<em> Telling stories about the past</em> (Contando historias del pasado)',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: '<em> Introduction</em> (Inicio)',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: '<em> Climax</em> (Desarrollo)',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: '<em> Denouement</em> (Conclusión) ',
+            hash: 't_3_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em> Pronunciation</em> (Pronunciación) ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo:
+              '<em> Unstressed vowels and vowel reduction</em> (vocales no acentuadas y reducción de vocales)',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: '<em> Contractions</em> (contracciones)  ',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: '<em> Mixed sounds</em> (sonidos combinados)',
+            hash: 't_4_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo:
+              '<em> Rhythm in the phrase and intonation</em> (Ritmo en la frase y entonación)',
+            hash: 't_4_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -110,32 +172,115 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema:
+        '<em> Expressions to indicate future in the Past</em> (Expresiones para indicar futuro en tiempo pasado)',
+      referencia:
+        'BBC Learning English. (2017). &#39Suppose&#39 and &#39supposed to&#39 - Learners&#39 Questions [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=GebRh9T-zE0',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema:
+        '<em> Telling stories about the past</em> (Contando historias del pasado)',
+      referencia:
+        'BBC. (s. f.). Unit 20: Telling stories. Narrative tenses. Learning English.',
+      tipo: 'Artículo',
+      link:
+        'https://www.bbc.co.uk/learningenglish/english/course/intermediate/unit-20/session-1 ',
+    },
+    {
+      tema:
+        '<em> Telling stories about the past</em> (Contando historias del pasado)',
+      referencia:
+        'BBC Northern Ireland. (2020). What is a story? – BBC Bitesize Foundation Language and Literacy [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=UdB0myfmEic',
+    },
+    {
+      tema:
+        '<em> Unstressed vowels and vowel reduction</em> (Vocales no acentuadas y reducción de vocales)',
+      referencia:
+        'British Council. (2019). Mini English lessons : Stress timed and weak forms [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=SR79TZbKRUU',
+    },
+    {
+      tema: '<em> Contractions</em> (Contracciones) ',
+      referencia:
+        'BBC Learning English. (2022). Double Contractions - BBC Learning English [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/shorts/JX2BRPoKmGc',
+    },
+    {
+      tema: '<em> Contractions</em> (Contracciones) ',
+      referencia:
+        'BBC Learning English. (2015). Pronunciation - double contractions [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=_KzhMB7h4eg',
+    },
+    {
+      tema:
+        '<em> Rhythm in the phrase and intonation</em> (Ritmo en la frase y entonación)',
+      referencia:
+        'BBC Learning English. (2017). The Teachers&#39 Room: Top tips about intonation [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=vkgMFZMBfqQ£',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em> Connectors</em> / Conectores',
+      significado:
+        'son palabras que se encargan de enlazar y ordenar ideas, palabras u oraciones, para presentar de una forma organizada y coherente lo que se quiere decir.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em> Narrative structure</em> / Estructura narrativa',
+      significado:
+        'es la forma y el orden en los que se presenta una historia a un espectador, un lector o un oyente.',
+    },
+    {
+      termino: '<em> Pronunciation</em>  / Pronunciación',
+      significado:
+        'forma en la que se reproduce fonéticamente una palabra o todo un idioma.',
+    },
+    {
+      termino: '<em> Time markers</em> / Marcadores temporales',
+      significado:
+        'palabras que hacen referencia al momento en el tiempo en el que ocurrió la acción o el evento del que se está hablando. Como, por ejemplo: now, today, yesterday, last month, next week, five years ago, etc.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'BBC. (s. f.-a). How to use structure for effect for KS3 English students. BITESIZE. ',
+      link: 'https://www.bbc.co.uk/bitesize/topics/zn8tkmn/articles/zhstrj6',
+    },
+    {
+      referencia: 'BBC. (s. f.-b). Narrative structures. BITESIZE.',
+      link: 'https://www.bbc.co.uk/bitesize/guides/zx4x39q/revision/2',
+    },
+    {
+      referencia:
+        'BBC. (s. f.-c). Suppose and supposed to. BBC World Service. ',
+      link:
+        'https://www.bbc.co.uk/worldservice/learningenglish/grammar/learnit/learnitv152.shtml',
+    },
+    {
+      referencia: 'British Council. (s. f.). Phonics overview. Primary Plus. ',
+      link:
+        'https://www.britishcouncil.hu/sites/default/files/primary_plus_2_-_phonics_overview.pdf',
+    },
+    {
+      referencia:
+        'Cambridge University Press. (s. f.). Intonation. Cambridge Dictionary.',
+      link:
+        'https://dictionary.cambridge.org/es-LA/grammar/british-grammar/intonation',
+    },
+    {
+      referencia:
+        'Huang, D. (2015). Linking Words (Conjunctions and Connectors). Yale Center for Teaching and Learning.',
+      link:
+        'https://ctl.yale.edu/sites/default/files/files/GWC_LinkingWords-1.pdf',
     },
   ],
   creditos: {
@@ -162,7 +307,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Blanca Flor Tinoco Torres',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -174,13 +319,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
