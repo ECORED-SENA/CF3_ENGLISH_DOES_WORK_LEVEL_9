@@ -87,7 +87,7 @@
                   | is used to talk about things that were agreed to be done, or that people expect to be done, but in the end they were not done #[b (in the past)] nor will they be done #[b (in the future)].
                 br
                 br
-                span.r--gris La expresión #[em #[b “was/were supposed to” ]] se usa para hablar sobre cosas a las que se accedió a hacer, o que la gente espera que se hagan, pero al final no se hicieron #[b (en el pasado)]  ni se harán #[b ( en el futuro)].
+                span.r--gris La expresión #[em #[b “was/were supposed to” ]] se usa para hablar sobre cosas a las que se accedió a hacer, o que la gente espera que se hagan, pero al final no se hicieron #[b (en el pasado)]  ni se harán #[b (en el futuro)].
               h5 #[em For example:] / Por ejemplo:
               .row.justify-content-center.mb-5
                 .col-lg-3: img(src='@/assets/curso/temas/tema2/3.svg', alt='')
@@ -123,7 +123,7 @@
                     td
                       span.r--3 (Gloria #[b agreed to book] the cottage, but #[b she didn’t book it.)]
       
-                  tr
+                  tr.fst-italic
                     td(colspan="2")
                       span.r--3 I 
                         span.r--2 was supposed to 
@@ -418,7 +418,7 @@
                 p.text-center 
                   span.r--3.fst-italic #[b Information questions was/were supposed to ]
                 p 
-                  span.r--3 #[b #[em “Yes” or “No” Questions] / Preguntas de “Sí” o “No” ]
+                  span.r--3 #[b #[em Information questions] / Preguntas de información ]
                 img(src='@/assets/curso/temas/tema2/21.svg', alt='').mb-5
                 .row.mb-3
                   .col-lg-2.col-6
@@ -443,7 +443,7 @@
       span.r--gris / Practiquemos un poco la estructura de oraciones con expresiones para indicar futuro en tiempo pasado. Complete el siguiente diálogo. 
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Titulo de actividad - Completa la conversación.
+      template(#titulo-actividad)  Completa la conversación.
       template(#descripcion-actividad) 
 
 
@@ -474,7 +474,7 @@ export default {
       ],
       dialogo: [
         {
-          personaje: 'Gabriela',
+          personaje: 'Martha',
           textoIng:
             'What a bummer! Wasn’t they supposed to ***  you the visa less than 2 months after it was approved?',
           textoEsp: '',
@@ -483,7 +483,7 @@ export default {
         },
 
         {
-          personaje: 'Martha',
+          personaje: 'Gabriela',
           textoIng:
             'That was what they were *** to do, that was what they agreed to.',
           textoEsp: '',

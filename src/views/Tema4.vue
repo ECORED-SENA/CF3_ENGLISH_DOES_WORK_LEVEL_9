@@ -370,11 +370,11 @@
       .col-lg-10(data-aos="fade-right")
         p 
           span.r--3.fst-italic As structures and sentences are studied in different verb tenses, we can see various contractions that are formed between some grammatical words. 
-          span.r--gris / But in this case, we are going to learn how to pronounce double contractions.  
+          span.r--gris / A medida que se estudian las estructuras y oraciones en diferentes tiempos verbales, podemos ver diversas contracciones que se forman entre algunas palabras gramaticales.   
           br
           br
-          span.r--3.fst-italic Pero en este caso, vamos a aprender a pronunciar contracciones dobles.
-          span.r--gris / A medida que se estudian las estructuras y oraciones en diferentes tiempos verbales, podemos ver diversas contracciones que se forman entre algunas palabras gramaticales.
+          span.r--3.fst-italic But in this case, we are going to learn how to pronounce double contractions. 
+          span.r--gris / Pero en este caso, vamos a aprender a pronunciar contracciones dobles.
       .col-lg-2.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/11.svg', alt='')
     .mn(style="background-color: #3c3fa7").mb-5
       .row.justify-content-center
@@ -734,7 +734,7 @@
                 .row.justify-content-center
                   .col-lg-4
                     .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
-                      h5.mb-0.me-5 Would
+                      h5.mb-0.me-5 Wouldstyle="width: 80px"
                       Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/59.mp3')")
                   .col-lg-4
                     .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
@@ -781,7 +781,7 @@
                       h5.mb-0.me-5 Grieve 
                       Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/67.mp3')")
                 p
-                  span.r--3.fst-italic.fst-italic “IE” with long /I/ sound / 
+                  span.r--3.fst-italic.fst-italic “IE” with long /i/ sound / 
                   span.r--gris “IE” con sonido /i/ largo 
                 .row.justify-content-center
                   .col-lg-4

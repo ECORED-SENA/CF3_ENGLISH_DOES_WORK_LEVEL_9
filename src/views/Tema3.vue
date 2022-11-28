@@ -73,7 +73,7 @@
                   p.fst-italic 
                     span.r--3 That was a very strange event. A couple of nights ago, I went to a movie with my roommate and a few other people from our dorm.
                     
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H18_2.mp3')")
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H18_2.mp3')" style="width: 80px")
                 .contenedor-traductor__esp(:class="{ mostrar: dial2}")
                   p Ese fue un evento muy extraño. Hace un par de noches, fui a ver una película con mi compañero de cuarto y algunas otras personas de nuestro dormitorio
                 a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fed947') Ver traducción
@@ -97,10 +97,10 @@
             .col-10 
               .contenedor-traductor.mb-5(style='background-color: #e1e8ff')
                 .contenedor-traductor__eng.d-flex.justify-content-between
-                  p.fst-italic 
+                  p.fst-italic.pe-5 
                     span.r--3 After watching the movie, we left the theater and imagine our surprise when we got to the car to find the windshield covered with slices of cheese.
                     
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H18_4.mp3')")
+                  Audio.color-acento-botones(:audio="require('@/assets/curso/temas/audios/c/H18_4.mp3')" style="width: 80px")
                 .contenedor-traductor__esp(:class="{ mostrar: dial4}")
                   p Después de ver la película, salimos del cine e imagínate nuestra sorpresa cuando llegamos al carro y encontramos el parabrisas cubierto de lonchas de queso.
                 a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fed947') Ver traducción

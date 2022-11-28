@@ -95,7 +95,11 @@
                       p Estos conectores nos indican que algo ha sucedido antes que la oración que tomamos como referencia. Generalmente, se usan al inicio de una historia.
                         br
                         br
+                        | #[b Ejemplo:] 
+                        br
                         |#[b Érase una vez, una reina que regía sobre un país llamado Ambos Mundos.]
+                br
+                br
               .col-lg-3.col-6: img(src='@/assets/curso/temas/tema1/4.svg', alt='')
             .row(numero="2" titulo="<em>Simultaneity connectors</em> / Conectores de simultaneidad").p-3
               .col-lg-9
@@ -114,7 +118,6 @@
                       |#[b Ejemplo: ]
                       br
                       |#[b Esta unidad de aire acondicionado puede controlar la humedad y la temperatura simultáneamente.]
-
               .col-lg-3.col-6: img(src='@/assets/curso/temas/tema1/5.svg', alt='')
             .row(numero="3" titulo="<em>Posteriority connectors</em> / Conectores de posterioridad").p-3
               .col-lg-9
@@ -122,8 +125,10 @@
                   div(slot="textoIngles")
                     p.fst-italic These temporary connectors are the ones that tell us that one thing happens after another. In this category, we must take into account that we can include some sequence connectors (which are usually used in the middle or in the development of a story) and some conclusion connectors (which are usually used at the end of a story). <br> <br> Example: <br> <b>I was listening to the radio while I drove. Suddenly, a deer appeared out of nowhere and I lost control of my car.</b>
                   div(slot="textoEspanol")
-                      p Estos conectores temporales son los que nos indican que una cosa sucede después de otra. En esta categoría, debemos tener en cuenta que podemos incluir algunos conectores de secuencia (que generalmente se usan en la mitad o en el desarrollo de una historia) y algunos conectores de conclusión (que generalmente se usan al final de una historia).  Ejemplo:
+                      p Estos conectores temporales son los que nos indican que una cosa sucede después de otra. En esta categoría, debemos tener en cuenta que podemos incluir algunos conectores de secuencia (que generalmente se usan en la mitad o en el desarrollo de una historia) y algunos conectores de conclusión (que generalmente se usan al final de una historia).
                         br
+                        br
+                        |#[b Ejemplo: ]
                         br
                         |#[b Estaba escuchando la radio mientras conducía. De repente, un venado apareció de la nada y perdí el control de mi auto.]
 
