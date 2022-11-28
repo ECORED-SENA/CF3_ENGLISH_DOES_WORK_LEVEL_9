@@ -16,7 +16,7 @@
               span.r--2.fw-bold such as vowel reduction, contractions, vowel combinations and intonation rules
               | ) that we must learn and practice to improve our conversational skills since in a language it isn’t only important what we say, but how we say it. Let’s see them in this thematic unit.
           div(slot="textoEspanol")
-            p Hay varios conceptos de la pronunciación del idioma inglés (como la reducción de las vocales, las contracciones, las combinaciones de vocales y las reglas de entonación) que debemos aprender y practicar para mejorar nuestras habilidades conversacionales, porque en un idioma no solo es importante lo que decimos, sino cómo lo decimos. Conozcamoslos en esta unidad temática.
+            p Hay varios conceptos de la pronunciación del idioma inglés (#[b como la reducción de las vocales, las contracciones, las combinaciones de vocales y las reglas de entonación]) que debemos aprender y practicar para mejorar nuestras habilidades conversacionales, porque en un idioma no solo es importante lo que decimos, sino cómo lo decimos. Conozcamoslos en esta unidad temática.
     .bg-tema4.mn 
       .row.justify-content-center.mb-5
         .col-lg-9(data-aos="fade-left")
@@ -41,13 +41,13 @@
           .row.justify-content-end.align-items-center.mb-2
             .col-2
               h3(style='color: #FC5F65 ')  
-                span(style="background-color: #FFDFE0 ").p-2 Bruno
+                span(style="background-color: #FFDFE0 ").p-2 Carla
             .col-10 
               .contenedor-traductor.mb-5(style='background-color: #FFF0F1')
                 .contenedor-traductor__eng.d-flex.justify-content-between
                   p.fst-italic  
                     span.r--2 Hi, Elena! Can you tell me what happened at the last meeting?
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema4/d1.mp3')")
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/h22_1.mp3')")
                 .contenedor-traductor__esp(:class="{ mostrar: dial1}")
                   p ¡Hola, Elena! ¿Puedes decirme qué pasó en la última reunión?
                 a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fed947') Ver traducción
@@ -56,13 +56,13 @@
               .contenedor-traductor.mb-5(style='background-color: #e1e8ff')
                 .contenedor-traductor__eng.d-flex.justify-content-between
                   p.fst-italic 
-                    span.r--3 Sure, Bruno. I have to say I 
+                    span.r--3 I have to say I 
                     span.r--2 couldn’t’ve 
                     | succeeded there if Jenny hadn’t helped me.
                     
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema4/d2.mp3')")
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/h22_2.mp3')")
                 .contenedor-traductor__esp(:class="{ mostrar: dial2}")
-                  p Claro, Bruno. Debo decir que no podría haber tenido éxito allí si Jenny no me hubiera ayudado.
+                  p Debo decir que no podría haber tenido éxito allí si Jenny no me hubiera ayudado.
                 a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fed947') Ver traducción
             .col-2
               h3(style='color: #3c3fa7 ')  
@@ -70,15 +70,14 @@
           .row.justify-content-end.align-items-center.mb-2
             .col-2
               h3(style='color: #FC5F65 ')  
-                span(style="background-color: #FFDFE0 ").p-2 Bruno 
+                span(style="background-color: #FFDFE0 ").p-2 Carla
             .col-10 
               .contenedor-traductor.mb-5(style='background-color: #FFF0F1')
                 .contenedor-traductor__eng.d-flex.justify-content-between
                   p.fst-italic  
-                    span.r--2 Really? 
                     span.r-33 D’y’all 
                     | present the project?
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema4/d3.mp3')")
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/h22_3.mp3')")
                 .contenedor-traductor__esp(:class="{ mostrar: dial3}")
                   p ¿En serio? ¿Ustedes presentaron el proyecto?
                 a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fed947') Ver traducción
@@ -93,7 +92,7 @@
                       span.r--2 shouldn’t’ve 
                       | eaten those shrimps, they got sick!
                     
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema4/d4.mp3')")
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/h22_4.mp3')")
                 .contenedor-traductor__esp(:class="{ mostrar: dial4}")
                   p No, mi equipo no apareció, no debieron haberse comido esos camarones, ¡se enfermaron!
                 a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fed947') Ver traducción
@@ -117,7 +116,7 @@
                   span.r--2.fw-bold schwa 
                   | (and it sounds like /uh/).
               div(slot="textoEspanol")
-                p Cuando hablamos, las palabras que decimos parecen diferentes a las palabras que escribimos, y una de las razones es que reducimos o hacemos más pequeños ciertos sonidos de las vocales de las palabras que creemos que son menos importantes en la oración (palabras funcionales) para dejar espacio a los que creemos que son más importantes para que la otra persona los escuche (palabras de contenido), y cuando reducimos o achicamos, estos sonidos vocálicos toman el mismo sonido. Así es, las vocales A - E - I - O - U, todas, pueden tener el mismo sonido y ese sonido es el llamado schwa (y suena como /uh/).
+                p Cuando hablamos, las palabras que decimos parecen diferentes a las palabras que escribimos, y una de las razones es que reducimos o hacemos más pequeños ciertos sonidos de las vocales de las palabras que creemos que son menos importantes en la oración (palabras funcionales) para dejar espacio a los que creemos que son más importantes para que la otra persona los escuche (palabras de contenido), y cuando reducimos o achicamos, estos sonidos vocálicos toman el mismo sonido. Así es, las vocales #[b A - E - I - O - U], todas, pueden tener el mismo sonido y ese sonido es el llamado #[em #[b schwa]] (y suena como #[b /uh/]).
       .row.justify-content-center.mb-5
         .col-lg-4
           .tarjeta-avatar
@@ -195,13 +194,13 @@
       span.r--gris / En los siguientes videos se amplía la información. ¿Qué sucede cuando reducimos las vocales?
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/tPbCpBdX1iM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos='fade-right') 
       span.r--3 Next, you are invited to see some examples of unstressed vowels and vowel reduction. 
       span.r--gris / A continuación, se le invita a ver algunos ejemplos de vocales no acentuadas y reducción de vocales.
     figure.mb-5 
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/lsrF6DExuAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.2  Contractions (contracciones) 
@@ -219,11 +218,11 @@
           .d-flex
             img(src='@/assets/curso/temas/tema4/10.svg', alt='' ).h-100
             .bg-white.p-5.w-100
-              SlyderE(indicadores="derecha")
-                div 
+              SlyderA(tipo='b')
+                div
                   .row.justify-content-center.mb-5
                     .col-lg-10
-                      Audio.color-acento-botones(:audio="require('@/assets/curso/temas/audios/tema4/25.mp3')").m-auto
+                      Audio.color-acento-botones(:audio="require('@/assets/curso/temas/audios/tema4/25.mp3')")
                   table.color-table.text-center.fst-italic
                     thead
                       tr(style="background-color: #F0F4FF").fw-bold
@@ -255,10 +254,10 @@
                         td(style="border-top: 0px").fw.bold 5
                         td(style="border-top: 0px") couldn’t
                         td(style="border-top: 0px") could not
-                div 
+                div.p 
                   .row.justify-content-center.mb-5
                     .col-lg-10
-                      Audio.color-acento-botones(:audio="require('@/assets/curso/temas/audios/tema4/26.mp3')").m-auto
+                      Audio.color-acento-botones(:audio="require('@/assets/curso/temas/audios/tema4/26.mp3')")
                   table.color-table.text-center.fst-italic
                     thead
                       tr(style="background-color: #F0F4FF").fw-bold
@@ -291,10 +290,10 @@
                         td(style="border-top: 0px").fw.bold 10
                         td(style="border-top: 0px") hasn’t
                         td(style="border-top: 0px") has not
-                div 
+                div.p 
                   .row.justify-content-center.mb-5
                     .col-lg-10
-                      Audio.color-acento-botones(:audio="require('@/assets/curso/temas/audios/tema4/27.mp3')").m-auto
+                      Audio.color-acento-botones(:audio="require('@/assets/curso/temas/audios/tema4/27.mp3')")
                   table.color-table.text-center.fst-italic
                     thead
                       tr(style="background-color: #F0F4FF").fw-bold
@@ -329,10 +328,10 @@
                         td(style="border-top: 0px").fw.bold 15
                         td(style="border-top: 0px") how’s
                         td(style="border-top: 0px") how has / how is / how does
-                div 
+                div.p 
                   .row.justify-content-center.mb-5
                     .col-lg-10
-                      Audio.color-acento-botones(:audio="require('@/assets/curso/temas/audios/tema4/28.mp3')").m-auto
+                      Audio.color-acento-botones(:audio="require('@/assets/curso/temas/audios/tema4/28.mp3')")
                   table.color-table.text-center.fst-italic
                     thead
                       tr(style="background-color: #F0F4FF").fw-bold
@@ -366,14 +365,15 @@
                         td(style="border-top: 0px").fw.bold 20
                         td(style="border-top: 0px") isn’t
                         td(style="border-top: 0px") is not
+          figcaption.mt-5 Tomado de https://www.inglestotal.com/pronunciacion-de-contracciones-en-ingles-english-contractions/
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
         p 
           span.r--3.fst-italic As structures and sentences are studied in different verb tenses, we can see various contractions that are formed between some grammatical words. 
-          span.r--gris / Pero en este caso, vamos a aprender a pronunciar contracciones dobles.
+          span.r--gris / But in this case, we are going to learn how to pronounce double contractions.  
           br
           br
-          span.r--3.fst-italic But in this case, we are going to learn how to pronounce double contractions. 
+          span.r--3.fst-italic Pero en este caso, vamos a aprender a pronunciar contracciones dobles.
           span.r--gris / A medida que se estudian las estructuras y oraciones en diferentes tiempos verbales, podemos ver diversas contracciones que se forman entre algunas palabras gramaticales.
       .col-lg-2.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/11.svg', alt='')
     .mn(style="background-color: #3c3fa7").mb-5
@@ -512,8 +512,8 @@
                   spa.r--gris / Ten cuidado ya que estas jamás se escriben como se pronuncian.
                   br
                   br
-                  span.r--3.fst-italic For example, the double contraction “couldn’t’ve” is written: 
-                  span.r--gris/ Por ejemplo, la doble contracción “couldn’t’ve” se escribe:
+                  span.r--3.fst-italic For example, the double contraction “couldn’t’ve” is written  
+                  span.r--gris / Por ejemplo, la doble contracción “couldn’t’ve” se escribe:
                 .row.justify-content-center
                   .col-lg-6
                     TarjetaAudio.color-acento-contenido.mb-3.bg-white.mx-1(
@@ -534,16 +534,16 @@
         .col-lg-8 
           traductor.color-primario.mb-5 
             div(slot="textoIngles")
-              p.fst-italic Mixed sounds, vowel combinations, vowel digraphs, vowel mixtures, are some of the names we can give to this theme. And they can be a combination of two vowels, as in ‘oo’, ‘ie’ or ‘au’, or a combination of a vowel plus a consonant, where the consonant has no distinctive sound, as in ‘aw’, ‘wa’ or ‘oh’.
+              p.fst-italic Mixed sounds, vowel combinations, vowel digraphs, vowel mixtures, are some of the names we can give to this theme. And they can be a combination of two vowels, as in #[em ‘oo’, ‘ie’ or ‘au’], or a combination of a vowel plus a consonant, where the consonant has no distinctive sound, as in #[em ‘aw’, ‘wa’ or ‘oh’].
             div(slot="textoEspanol")
-              p Sonidos mixtos, combinaciones de vocales, dígrafos de vocales, mezclas de vocales son algunos de los nombres que le podemos dar a este tema. Y pueden ser una combinación de dos vocales, como en 'oo', 'ie' o 'au', o una combinación de una vocal más una consonante, donde la consonante no tiene un sonido distintivo, como en 'aw', 'wa ' o 'ay'.
+              p Sonidos mixtos, combinaciones de vocales, dígrafos de vocales, mezclas de vocales son algunos de los nombres que le podemos dar a este tema. Y pueden ser una combinación de dos vocales, como en #[em 'oo', 'ie' o 'au'], o una combinación de una vocal más una consonante, donde la consonante no tiene un sonido distintivo, como en #[em 'aw', 'wa ' o 'ay'].
                 br
                 br
                 |Vamos a practicar algunas de las combinaciones más comunes, ya que en total hay al menos 28 combinaciones de letras vocales escritas.
 
       .row.justify-content-center.mb-5
         .col-lg-5(data-aos="fade-right")
-          p.fst-italic We are going to practice some of the most common combinations, since in total there are at least 28 written vowel letter combinations. / Vamos a practicar algunas de las combinaciones más comunes, ya que en total hay al menos 28 combinaciones de letras vocales escritas.
+          p #[em We are going to practice some of the most common combinations, since in total there are at least 28 written vowel letter combinations.] / Vamos a practicar algunas de las combinaciones más comunes, ya que en total hay al menos 28 combinaciones de letras vocales escritas.
           img(src='@/assets/curso/temas/tema4/14.svg', alt='')
         .col-lg-7(data-aos="fade-left")
           .tarjeta.bg-white.p-4
@@ -703,11 +703,11 @@
                       .col-lg-4
                         .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
                           h5.mb-0.me-5 Amount     
-                          Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/54.mp3')")
+                          Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/56.mp3')")
                       .col-lg-4
                         .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
                           h5.mb-0.me-5 You
-                          Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/55.mp3')")
+                          Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/54.mp3')")
                 p
                   span.r--3.fst-italic.fst-italic “OU” with long /a/ and /u/ sound / 
                   span.r--gris “OU” con sonido /a/ y /u/ largo 
@@ -715,11 +715,11 @@
                       .col-lg-4
                         .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
                           h5.mb-0.me-5 Cloud
-                          Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/56.mp3')")
+                          Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/57.mp3')")
                       .col-lg-4
                         .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
                           h5.mb-0.me-5 Coup
-                          Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/57.mp3')")
+                          Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/55.mp3')")
                       .col-lg-4
                         .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
                           h5.mb-0.me-5 Proud
@@ -782,7 +782,7 @@
                       Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/67.mp3')")
                 p
                   span.r--3.fst-italic.fst-italic “IE” with long /I/ sound / 
-                  span.r--gris “IE” con sonido /I/ largo 
+                  span.r--gris “IE” con sonido /i/ largo 
                 .row.justify-content-center
                   .col-lg-4
                     .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
@@ -846,7 +846,7 @@
                       :audio="require('@/assets/curso/temas/audios/tema4/72.mp3')"
                     )
                   p.ms-4  Él piensa que estamos bien. ↘
-          div(titulo="<em> Falling intonation</em> / Entonación descendente")
+          div(titulo="<em> Rising intonation </em> / Entonación ascendente")
             .tarjeta.bg-white.p-4
               p 
                 span.r--3.fst-italic The voice is raised at the end of a sentence. It is common in yes or no questions.
@@ -866,7 +866,7 @@
                       :audio="require('@/assets/curso/temas/audios/tema4/73.mp3')"
                     )
                   p.ms-4  ¿Estoy loca? ↗
-          div(titulo="<em> Falling intonation</em> / Entonación descendente")
+          div(titulo="<em> Fall-rise intonation</em> / Entonación descendente-ascendente ")
             .tarjeta.bg-white.p-4
               p 
                 span.r--3.fst-italic The voice falls and returns and rises on the last stressed syllable of a sentence. It is common in statements or affirmations when we do not completely agree.
@@ -927,7 +927,7 @@ export default {
     dialogo: {
       personajes: [
         {
-          nombre: 'Bruno',
+          nombre: 'Carla',
           img: require('@/assets/curso/temas/tema4/bruno.svg'),
         },
         {
@@ -937,11 +937,11 @@ export default {
       ],
       dialogo: [
         {
-          personaje: 'Bruno',
+          personaje: 'Carla',
           textoIng:
             'What a bummer! Wasn’t they supposed to ***  you the visa less than 2 months after it was approved?I’ven’t felt bad or anything like *** .  ↘',
           textoEsp: '',
-          audio: require('@/assets/curso/temas/audios/tema4/a1.mp3'),
+          audio: require('@/assets/curso/temas/audios/c/H35.mp3'),
           palabra: 'Greg',
         },
 

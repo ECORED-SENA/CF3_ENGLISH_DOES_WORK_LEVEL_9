@@ -35,9 +35,9 @@
                     .contenedor-traductor.mb-5(style='background-color: #8284d2')
                       .contenedor-traductor__eng.d-flex.justify-content-between
                         p.fst-italic.text-white  Hello, Gina. How did your singing class go?
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema1/d1.mp3')")
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H2_1.mp3')")
                       .contenedor-traductor__esp(:class="{ mostrar: dial1}")
-                        p 
+                        p Hola, Gina. ¿Cómo te fue en tu clase de canto?
                       a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fed947') Ver traducción
                 .row.justify-content-center.align-items-center.mb-2
                   .col-10 
@@ -49,7 +49,7 @@
                             | we did warm-up exercises with our vocal coach.
                         Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema1/d2.mp3')")
                       .contenedor-traductor__esp(:class="{ mostrar: dial2}")
-                        p 
+                        p Muy bien, Alex. Inicialmente, hicimos ejercicios de calentamiento con nuestro entrenador vocal.
                       a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fed947') Ver traducción
                   .col-2
                     h3(style='color: #3c3fa7 ')  Gina
@@ -60,9 +60,9 @@
                     .contenedor-traductor.mb-5(style='background-color: #8284d2')
                       .contenedor-traductor__eng.d-flex.justify-content-between
                         p.fst-italic.text-white  How interesting! And what else did you do?
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema1/d3.mp3')")
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H2_2.mp3')")
                       .contenedor-traductor__esp(:class="{ mostrar: dial3}")
-                        p 
+                        p ¡Qué interesante! ¿Y qué más hiciste?
                       a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fed947') Ver traducción
                 .row.justify-content-center.align-items-center.mb-2
                   .col-10 
@@ -75,7 +75,7 @@
                               | we were arranged in pairs and we sang duets.
                         Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema1/d4.mp3')")
                       .contenedor-traductor__esp(:class="{ mostrar: dial4}")
-                        p 
+                        p A medida que la clase avanzaba, cantábamos canciones cada vez más difíciles. De repente, nos organizaron en parejas y cantamos duetos.
                       a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fed947') Ver traducción
                   .col-2
                     h3(style='color: #3c3fa7 ')  Gina
@@ -109,6 +109,9 @@
                     span.fw-bold This air conditioning unit can control humidity and temperature simultaneously
                   div(slot="textoEspanol")
                     p Este tipo de conectores temporales son los que nos indican que dos cosas están sucediendo a la vez. Generalmente, se usan en la mitad o en el desarrollo de una historia. Ejemplo:
+                      br
+                      br
+                      |#[b Ejemplo: ]
                       br
                       |#[b Esta unidad de aire acondicionado puede controlar la humedad y la temperatura simultáneamente.]
 
@@ -214,19 +217,19 @@
                       td 
                         TarjetaAudio.color-acento-contenido.mb-3(
                             texto="While <span class= r--gris fw-normal>/ Mientras que </span>"
-                            :audio="require('@/assets/curso/temas/audios/tema1/8.mp3')"
+                            :audio="require('@/assets/curso/temas/audios/tema1/7.mp3')"
                           )
                         TarjetaAudio.color-acento-contenido.mb-3(
                             texto="When <span class= r--gris fw-normal>/ Cuando </span>"
-                            :audio="require('@/assets/curso/temas/audios/tema1/9.mp3')"
+                            :audio="require('@/assets/curso/temas/audios/tema1/8.mp3')"
                           )
                         TarjetaAudio.color-acento-contenido.mb-3(
                             texto="Simultaneously <span class= r--gris fw-normal>/ Simultáneamente </span>"
-                            :audio="require('@/assets/curso/temas/audios/tema1/10.mp3')"
+                            :audio="require('@/assets/curso/temas/audios/tema1/9.mp3')"
                           )
                         TarjetaAudio.color-acento-contenido.mb-3(
                             texto="At the same time <span class= r--gris fw-normal>/ Al mismo tiempo </span>"
-                            :audio="require('@/assets/curso/temas/audios/tema1/11.mp3')"
+                            :audio="require('@/assets/curso/temas/audios/tema1/10.mp3')"
                           )
                         TarjetaAudio.color-acento-contenido.mb-3(
                             texto="In that moment <span class= r--gris fw-normal>/ En ese momento </span>"
@@ -234,7 +237,7 @@
                           )
                         TarjetaAudio.color-acento-contenido.mb-3(
                             texto="As <span class= r--gris fw-normal>/ Mientras / cuando / a medida que </span>"
-                            :audio="require('@/assets/curso/temas/audios/tema1/13.mp3')"
+                            :audio="require('@/assets/curso/temas/audios/tema1/11.mp3')"
                           )
 
                       td 
@@ -267,19 +270,19 @@
                       td 
                         TarjetaAudio.color-acento-contenido.mb-3(
                               texto=" Then <span class= r--gris fw-normal>/ Entonces / luego </span>"
-                              :audio="require('@/assets/curso/temas/audios/tema1/14.mp3')"
+                              :audio="require('@/assets/curso/temas/audios/tema1/13.mp3')"
                             )
                         TarjetaAudio.color-acento-contenido.mb-3(
                               texto="Suddenly  <span class= r--gris fw-normal>/ De repente </span>"
-                              :audio="require('@/assets/curso/temas/audios/tema1/15.mp3')"
+                              :audio="require('@/assets/curso/temas/audios/tema1/14.mp3')"
                             )
                         TarjetaAudio.color-acento-contenido.mb-3(
                               texto="Later <span class= r--gris fw-normal>/ Luego </span>"
-                              :audio="require('@/assets/curso/temas/audios/tema1/16.mp3')"
+                              :audio="require('@/assets/curso/temas/audios/tema1/15.mp3')"
                             )
                         TarjetaAudio.color-acento-contenido.mb-3(
                               texto="Afterwards <span class= r--gris fw-normal>/ Después </span>"
-                              :audio="require('@/assets/curso/temas/audios/tema1/1.mp3')"
+                              :audio="require('@/assets/curso/temas/audios/tema1/16.mp3')"
                             )
                         TarjetaAudio.color-acento-contenido.mb-3(
                               texto="Finally  <span class= r--gris fw-normal>/ Finalmente </span>"
@@ -320,7 +323,7 @@ export default {
     dialogo: {
       personajes: [
         {
-          nombre: 'Alex',
+          nombre: 'Alexa',
           img: require('@/assets/curso/temas/tema1/alex.svg'),
         },
         {
@@ -330,10 +333,10 @@ export default {
       ],
       dialogo: [
         {
-          personaje: 'Alex',
+          personaje: 'Alexa',
           textoIng: 'It *** very interesting. How did it end?',
           textoEsp: 'Yo necesito el libro de biologia y las diapositivas.',
-          audio: require('@/assets/curso/temas/audios/tema1/a1.mp3'),
+          audio: require('@/assets/curso/temas/audios/c/H6.mp3'),
           palabra: 'sounds',
         },
 

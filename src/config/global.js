@@ -175,7 +175,7 @@ export default {
       tema:
         '<em> Expressions to indicate future in the Past</em> (Expresiones para indicar futuro en tiempo pasado)',
       referencia:
-        'BBC Learning English. (2017). &#39Suppose&#39 and &#39supposed to&#39 - Learners&#39 Questions [Video]. YouTube. ',
+        'BBC Learning English. (2017). <em> &#39Suppose&#39 and &#39supposed to&#39 - Learners&#39 Questions</em> [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=GebRh9T-zE0',
     },
@@ -183,7 +183,7 @@ export default {
       tema:
         '<em> Telling stories about the past</em> (Contando historias del pasado)',
       referencia:
-        'BBC. (s. f.). Unit 20: Telling stories. Narrative tenses. Learning English.',
+        'BBC. (s. f.). Unit 20: <em> Telling stories. Narrative tenses.</em> Learning English.',
       tipo: 'Artículo',
       link:
         'https://www.bbc.co.uk/learningenglish/english/course/intermediate/unit-20/session-1 ',
@@ -192,7 +192,7 @@ export default {
       tema:
         '<em> Telling stories about the past</em> (Contando historias del pasado)',
       referencia:
-        'BBC Northern Ireland. (2020). What is a story? – BBC Bitesize Foundation Language and Literacy [Video]. YouTube. ',
+        'BBC Northern Ireland. (2020). <em> What is a story? – BBC Bitesize Foundation Language and Literacy</em> [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=UdB0myfmEic',
     },
@@ -200,21 +200,21 @@ export default {
       tema:
         '<em> Unstressed vowels and vowel reduction</em> (Vocales no acentuadas y reducción de vocales)',
       referencia:
-        'British Council. (2019). Mini English lessons : Stress timed and weak forms [Video]. YouTube.',
+        'British Council. (2019). <em> Mini English lessons : Stress timed and weak forms</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=SR79TZbKRUU',
     },
     {
       tema: '<em> Contractions</em> (Contracciones) ',
       referencia:
-        'BBC Learning English. (2022). Double Contractions - BBC Learning English [Video]. YouTube. ',
+        'BBC Learning English. (2022). <em> Double Contractions - BBC Learning English</em> [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/shorts/JX2BRPoKmGc',
     },
     {
       tema: '<em> Contractions</em> (Contracciones) ',
       referencia:
-        'BBC Learning English. (2015). Pronunciation - double contractions [Video]. YouTube. ',
+        'BBC Learning English. (2015). <em> Pronunciation - double contractions</em> [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=_KzhMB7h4eg',
     },
@@ -222,7 +222,7 @@ export default {
       tema:
         '<em> Rhythm in the phrase and intonation</em> (Ritmo en la frase y entonación)',
       referencia:
-        'BBC Learning English. (2017). The Teachers&#39 Room: Top tips about intonation [Video]. YouTube. ',
+        'BBC Learning English. (2017). <em> The Teachers&#39 Room: Top tips about intonation</em> [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=vkgMFZMBfqQ£',
     },
@@ -246,39 +246,40 @@ export default {
     {
       termino: '<em> Time markers</em> / Marcadores temporales',
       significado:
-        'palabras que hacen referencia al momento en el tiempo en el que ocurrió la acción o el evento del que se está hablando. Como, por ejemplo: now, today, yesterday, last month, next week, five years ago, etc.',
+        'palabras que hacen referencia al momento en el tiempo en el que ocurrió la acción o el evento del que se está hablando. Como, por ejemplo: <em> now, today, yesterday, last month, next week, five years ago</em>, etc.',
     },
   ],
   referencias: [
     {
       referencia:
-        'BBC. (s. f.-a). How to use structure for effect for KS3 English students. BITESIZE. ',
+        'BBC. (s. f.-a). <em>How to use structure for effect for KS3 English students</em>. BITESIZE. ',
       link: 'https://www.bbc.co.uk/bitesize/topics/zn8tkmn/articles/zhstrj6',
     },
     {
-      referencia: 'BBC. (s. f.-b). Narrative structures. BITESIZE.',
+      referencia: 'BBC. (s. f.-b). <em>Narrative structures.</em> BITESIZE.',
       link: 'https://www.bbc.co.uk/bitesize/guides/zx4x39q/revision/2',
     },
     {
       referencia:
-        'BBC. (s. f.-c). Suppose and supposed to. BBC World Service. ',
+        'BBC. (s. f.-c). <em>Suppose and supposed to.</em> BBC World Service. ',
       link:
         'https://www.bbc.co.uk/worldservice/learningenglish/grammar/learnit/learnitv152.shtml',
     },
     {
-      referencia: 'British Council. (s. f.). Phonics overview. Primary Plus. ',
+      referencia:
+        'British Council. (s. f.). <em>Phonics overview.</em> Primary Plus. ',
       link:
         'https://www.britishcouncil.hu/sites/default/files/primary_plus_2_-_phonics_overview.pdf',
     },
     {
       referencia:
-        'Cambridge University Press. (s. f.). Intonation. Cambridge Dictionary.',
+        'Cambridge University Press. (s. f.). <em>Intonation.</em> Cambridge Dictionary.',
       link:
         'https://dictionary.cambridge.org/es-LA/grammar/british-grammar/intonation',
     },
     {
       referencia:
-        'Huang, D. (2015). Linking Words (Conjunctions and Connectors). Yale Center for Teaching and Learning.',
+        'Huang, D. (2015). <em>Linking Words (Conjunctions and Connectors)</em>. Yale Center for Teaching and Learning.',
       link:
         'https://ctl.yale.edu/sites/default/files/files/GWC_LinkingWords-1.pdf',
     },
@@ -313,8 +314,49 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Erika Viviana Sandoval Rojas',
         cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -325,7 +367,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Lina Marcela Pérez Manchego',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

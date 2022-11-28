@@ -20,7 +20,9 @@
               span.r--2.fw-bold desarrollo 
               | y su 
               span.r--2.fw-bold desenlace; 
-              | para esto, debemos aprender cómo ordenar y conectar nuestras ideas con la ayuda de 
+              | para esto, debemos aprender cómo ordenar y 
+              span.r--2.fw-bold conectar 
+              | nuestras ideas con la ayuda de 
               span.r--2.fw-bold palabras de transición
               | , que en la historia nos dicen qué cosas ocurrieron anteriormente, simultáneamente, posteriormente, o qué evento concluyó la historia. También, para enriquecer nuestra narración, tenemos recursos como las expresiones 
               span.r--2.fst-italic.fw-bold “was/were going to” 
@@ -29,7 +31,7 @@
               | , que nos hablan de cosas que se esperaban que se llevarán a cabo o que se planificaron en el pasado, pero al final no se van a realizar en el futuro. Por último se aprenderá sobre diferentes conceptos de pronunciación que mejorarán nuestras habilidades conversacionales. Partiendo de lo anterior, le damos la bienvenida al estudio de este componente formativo, y para comenzar, se invita a explorar el video que se presenta a continuación:
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/781oq59UqAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row.justify-content-center.mb-5
         .col-lg-10
           .tarjeta.color-acento-contenido.p-4

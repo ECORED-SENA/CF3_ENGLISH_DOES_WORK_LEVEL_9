@@ -45,7 +45,7 @@
                   p #[b ¿Cómo ordenar los eventos en una historia?]
                     br
                     br
-                    |Los acontecimientos en una historia pueden ordenarse de una manera lógica y cronológica (narración lineal); de una forma no cronológica, que comience en la mitad y  que salte en el tiempo entre varios momentos del pasado y del presente, constantemente (narración no lineal); o también se puede comenzar al final de la historia y volver a los orígenes de la narración (narración circular - este estilo se usa más que todo en la ficción).
+                    |Los acontecimientos en una historia pueden ordenarse de una manera lógica y cronológica  (#[b narración lineal]); de una forma no cronológica, que comience en la mitad y  que salte en el tiempo entre varios momentos del pasado y del presente, constantemente  ( #[b narración no lineal]); o también se puede comenzar al final de la historia y volver a los orígenes de la narración  ( #[b narración circular] - este estilo se usa más que todo en la ficción).
     p(data-aos='fade-right') 
       span.r--3 #[em Here, initially, we are going to learn the most traditional way of telling a story, which is through a linear narrative.] 
       span.r--gris / Aquí, en un principio, vamos a aprender la forma más tradicional de contar una historia, que es por medio de una narración lineal.
@@ -61,10 +61,10 @@
               .contenedor-traductor.mb-5(style='background-color: #FFF0F1')
                 .contenedor-traductor__eng.d-flex.justify-content-between
                   p.fst-italic  
-                    span.r--2 Diego, tell me what happened to your car the other night.
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema3/d1.mp3')")
+                    span.r--2 Tell me what happened to your car the other night.
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H18_1.mp3')")
                 .contenedor-traductor__esp(:class="{ mostrar: dial1}")
-                  p Diego, cuéntame qué fue lo que le pasó a tu carro la otra noche.
+                  p Cuéntame qué fue lo que le pasó a tu carro la otra noche.
                 a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fed947') Ver traducción
           .row.justify-content-center.align-items-center.mb-2
             .col-10 
@@ -73,13 +73,13 @@
                   p.fst-italic 
                     span.r--3 That was a very strange event. A couple of nights ago, I went to a movie with my roommate and a few other people from our dorm.
                     
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema3/d2.mp3')")
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H18_2.mp3')")
                 .contenedor-traductor__esp(:class="{ mostrar: dial2}")
                   p Ese fue un evento muy extraño. Hace un par de noches, fui a ver una película con mi compañero de cuarto y algunas otras personas de nuestro dormitorio
                 a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fed947') Ver traducción
             .col-2
               h3(style='color: #3c3fa7 ')  
-                span(style="background-color: #C4D1FF ").p-2 Diego
+                span(style="background-color: #C4D1FF ").p-2 Diana
           .row.justify-content-end.align-items-center.mb-2
             .col-2
               h3(style='color: #FC5F65 ')  
@@ -89,7 +89,7 @@
                 .contenedor-traductor__eng.d-flex.justify-content-between
                   p.fst-italic  
                     span.r--2 And what happened?
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema3/d3.mp3')")
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H18_3.mp3')")
                 .contenedor-traductor__esp(:class="{ mostrar: dial3}")
                   p ¿Y qué pasó?
                 a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fed947') Ver traducción
@@ -100,13 +100,13 @@
                   p.fst-italic 
                     span.r--3 After watching the movie, we left the theater and imagine our surprise when we got to the car to find the windshield covered with slices of cheese.
                     
-                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/tema3/d4.mp3')")
+                  Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H18_4.mp3')")
                 .contenedor-traductor__esp(:class="{ mostrar: dial4}")
                   p Después de ver la película, salimos del cine e imagínate nuestra sorpresa cuando llegamos al carro y encontramos el parabrisas cubierto de lonchas de queso.
                 a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fed947') Ver traducción
             .col-2
               h3(style='color: #3c3fa7 ')  
-                span(style="background-color: #C4D1FF ").p-2 Diego
+                span(style="background-color: #C4D1FF ").p-2 Diana
     p.mb-5(data-aos='fade-right') 
       span.r--3 Although there is no exact equation that tells us how to tell a story, there is usually a useful order to do things. This structure is sometimes known as “Story Mountain.” 
       span.r--gris / Si bien no hay una ecuación exacta que nos diga cómo narrar una historia, suele haber un orden útil para hacer las cosas. A esta estructura se le conoce a veces como “montaña de la historia”.
@@ -175,10 +175,10 @@
           span.r--2.fw-bold the stakes 
           | for the main character (what he can win or lose). Let’s see an example.
       div(slot="textoEspanol")
-        p El inicio es donde el autor presenta el escenario y a los personajes de su historia, con todas sus metas y motivaciones. La narración suele comenzar en equilibrio, pero una acción o personaje rompe el equilibrio (un incidente de estímulo), y desde temprano se nos presenta tanto el problema (que es de lo que la historia va a tratar en su mayoría) como lo que está en juego para el personaje principal (lo que puede ganar o perder). Veamos un ejemplo.
+        p El #[b inicio] es donde el autor presenta el escenario y a los personajes de su historia, con todas sus metas y motivaciones. La narración suele comenzar en equilibrio, pero una acción o personaje rompe el equilibrio (un #[b incidente de estímulo]), y desde temprano se nos presenta tanto el #[b problema] (que es de lo que la historia va a tratar en su mayoría) como #[b lo que está en juego] para el personaje principal (lo que puede ganar o perder). Veamos un ejemplo.
     figure.mb-5 
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7vhSgoPEqx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.2  Climax (Desarrollo)
@@ -193,7 +193,7 @@
         p Para entrar al desarrollo de la historia, tenemos el aumento de la acción, lo cual puede ser el desenvolvimiento de ciertos eventos  que nos ayudan a entender el problema, y comienza una búsqueda para restaurar el equilibrio perdido con los incidentes anteriores. Luego, la narración continúa hasta el punto culminante, que es la parte más emocionante de la historia y suele ser un gran acontecimiento que sirve de punto de inflexión para los eventos. Veamos un ejemplo.
     figure.mb-5 
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/rOhgTT_LqVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.3  Denouement (Conclusión)
@@ -208,7 +208,7 @@
         p Para entrar a la conclusión de la historia, tenemos el descenso de la acción, que son eventos que ocurren después del punto culminante que conducen a la resolución del problema, y se restablece el equilibrio. Veamos un ejemplo.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/5vWQAqKTJsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 
