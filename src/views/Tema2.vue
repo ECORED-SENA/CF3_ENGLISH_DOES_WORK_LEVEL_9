@@ -155,7 +155,7 @@
                     .col-10 
                       .contenedor-traductor.mb-5(style='background-color: #8284d2')
                         .contenedor-traductor__eng.d-flex.justify-content-between
-                          p.fst-italic
+                          p.fst-italic.w-75
                             span.text-white Weren’t you 
                             span.r--3 supposed to 
                             span.text-white travel abroad these days?
@@ -167,7 +167,7 @@
                     .col-10 
                       .contenedor-traductor.mb-5(style='background-color: #e1e8ff')
                         .contenedor-traductor__eng.d-flex.justify-content-between
-                          p.fst-italic 
+                          p.fst-italic.w-75 
                             span.r--3 Yes, I was 
                               span.r--2 supposed to 
                               | catch the flight to Boston by the end of this month.
@@ -183,7 +183,7 @@
                     .col-10 
                       .contenedor-traductor.mb-5(style='background-color: #8284d2')
                         .contenedor-traductor__eng.d-flex.justify-content-between
-                          p.fst-italic.text-white  You told me something like that the last time we spoke, but what exactly happened?
+                          p.fst-italic.text-white.w-75  You told me something like that the last time we spoke, but what exactly happened?
                           Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H12_3.mp3')")
                         .contenedor-traductor__esp(:class="{ mostrar: dial3}")
                           p Me dijiste algo así la última vez que hablamos, pero ¿qué pasó exactamente?
@@ -192,7 +192,7 @@
                     .col-10 
                       .contenedor-traductor.mb-5(style='background-color: #e1e8ff')
                         .contenedor-traductor__eng.d-flex.justify-content-between
-                          p.fst-italic 
+                          p.fst-italic.w-75 
                             span.r--3 The thing is that I 
                               span.r--2 was going to 
                               | study English this upcoming semester in the U.S., but my student visa was delayed.

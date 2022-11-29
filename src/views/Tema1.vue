@@ -34,7 +34,7 @@
                   .col-10 
                     .contenedor-traductor.mb-5(style='background-color: #8284d2')
                       .contenedor-traductor__eng.d-flex.justify-content-between
-                        p.fst-italic.text-white  Hello, Gina. How did your singing class go?
+                        p.fst-italic.text-white.w-75  Hello, Gina. How did your singing class go?
                         Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H2_1.mp3')")
                       .contenedor-traductor__esp(:class="{ mostrar: dial1}")
                         p Hola, Gina. ¿Cómo te fue en tu clase de canto?
@@ -43,7 +43,7 @@
                   .col-10 
                     .contenedor-traductor.mb-5(style='background-color: #e1e8ff')
                       .contenedor-traductor__eng.d-flex.justify-content-between
-                        p.fst-italic
+                        p.fst-italic.w-75
                           span.r--3   Very good, Alex. 
                             span.r--2 Initially, 
                             | we did warm-up exercises with our vocal coach.
@@ -59,7 +59,7 @@
                   .col-10 
                     .contenedor-traductor.mb-5(style='background-color: #8284d2')
                       .contenedor-traductor__eng.d-flex.justify-content-between
-                        p.fst-italic.text-white  How interesting! And what else did you do?
+                        p.fst-italic.text-white.w-75  How interesting! And what else did you do?
                         Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/H2_2.mp3')")
                       .contenedor-traductor__esp(:class="{ mostrar: dial3}")
                         p ¡Qué interesante! ¿Y qué más hiciste?
@@ -68,7 +68,7 @@
                   .col-10 
                     .contenedor-traductor.mb-5(style='background-color: #e1e8ff')
                       .contenedor-traductor__eng.d-flex.justify-content-between
-                        p.fst-italic  
+                        p.fst-italic.w-75  
                           span.r--2 As 
                             span.r--3 the class progressed, we sang more and more difficult songs. 
                               span.r--2 Suddenly, 
