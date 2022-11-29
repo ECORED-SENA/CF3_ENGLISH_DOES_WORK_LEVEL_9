@@ -928,7 +928,7 @@ export default {
       personajes: [
         {
           nombre: 'Carla',
-          img: require('@/assets/curso/temas/tema4/bruno.svg'),
+          img: require('@/assets/curso/temas/bruno.svg'),
         },
         {
           nombre: 'Elena',

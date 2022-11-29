@@ -121,7 +121,7 @@
                         span.r--2 #[b was supposed to ] 
                         | #[b book] the cottage months ago, but she forgot.
                     td
-                      span.r--3 (Gloria #[b agreed to book] the cottage, but #[b she didn’t book it.)]
+                      span.r--3.fst-italic (Gloria #[b agreed to book] the cottage, but #[b she didn’t book it.)]
       
                   tr.fst-italic
                     td(colspan="2")
@@ -146,7 +146,7 @@
           img.mt-5(src='@/assets/curso/temas/tema2/4.jpg', alt='' style='border-radius: 20px')
         .col-lg-7
           .contenedor-dialogo
-            .contenedor-dialogo__titulo: img(src='@/assets/curso/temas/tema2/5.svg', alt='').mb-0
+            .contenedor-dialogo__titulo: img(src='@/assets/curso/temas/c2.svg', alt='').mb-0
             .contenedor-dialogo__dialogo.pt-0.p-5
               .tarjeta.bg-white.p-4(style='border-radius: 0px 0px 10px 10px')
                   .row.justify-content-center.align-items-center.mb-2
@@ -465,7 +465,7 @@ export default {
       personajes: [
         {
           nombre: 'Gabriela',
-          img: require('@/assets/curso/temas/tema1/alex.svg'),
+          img: require('@/assets/curso/temas/bruno.svg'),
         },
         {
           nombre: 'Martha',

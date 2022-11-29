@@ -25,7 +25,7 @@
       .row.justify-content-center.mb-5
         .col-lg-8
           .contenedor-dialogo
-            .contenedor-dialogo__titulo: img(src='@/assets/curso/temas/tema1/2.svg', alt='').mb-0
+            .contenedor-dialogo__titulo: img(src='@/assets/curso/temas/c1.svg', alt='').mb-0
             .contenedor-dialogo__dialogo.pt-0.p-5
               .tarjeta.bg-white.p-4(style='border-radius: 0px 0px 10px 10px')
                 .row.justify-content-center.align-items-center.mb-2
@@ -329,7 +329,7 @@ export default {
       personajes: [
         {
           nombre: 'Alexa',
-          img: require('@/assets/curso/temas/tema1/alex.svg'),
+          img: require('@/assets/curso/temas/bruno.svg'),
         },
         {
           nombre: 'Gina',
