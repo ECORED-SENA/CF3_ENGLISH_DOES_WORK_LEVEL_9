@@ -229,22 +229,22 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em> Connectors</em> / Conectores',
+      termino: '<em>Connectors</em> / Conectores',
       significado:
         'son palabras que se encargan de enlazar y ordenar ideas, palabras u oraciones, para presentar de una forma organizada y coherente lo que se quiere decir.',
     },
     {
-      termino: '<em> Narrative structure</em> / Estructura narrativa',
+      termino: '<em>Narrative structure</em> / Estructura narrativa',
       significado:
         'es la forma y el orden en los que se presenta una historia a un espectador, un lector o un oyente.',
     },
     {
-      termino: '<em> Pronunciation</em>  / Pronunciación',
+      termino: '<em>Pronunciation</em>  / Pronunciación',
       significado:
         'forma en la que se reproduce fonéticamente una palabra o todo un idioma.',
     },
     {
-      termino: '<em> Time markers</em> / Marcadores temporales',
+      termino: '<em>Time markers</em> / Marcadores temporales',
       significado:
         'palabras que hacen referencia al momento en el tiempo en el que ocurrió la acción o el evento del que se está hablando. Como, por ejemplo: <em> now, today, yesterday, last month, next week, five years ago</em>, etc.',
     },
@@ -298,6 +298,27 @@ export default {
         cargo: 'Responsable del equipo de diseño instruccional',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Michelle Manuela Pérez Hernández ',
+        cargo: 'Experta Temática ',
+        centro:
+          'Centro para la industria de la Comunicación Gráfica - Regional Distrito Capital - CENIGRAF ',
+      },
+      {
+        nombre: 'Gloria Lida Alzate Suárez ',
+        cargo: 'Diseñadora Instruccional ',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus ',
+        cargo: 'Asesora Metodológica ',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González ',
+        cargo: 'Corrector de Estilo ',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -386,11 +407,6 @@ export default {
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },

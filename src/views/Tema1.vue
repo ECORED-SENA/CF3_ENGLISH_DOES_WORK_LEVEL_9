@@ -112,7 +112,7 @@
                     br
                     span.fw-bold This air conditioning unit can control humidity and temperature simultaneously
                   div(slot="textoEspanol")
-                    p Este tipo de conectores temporales son los que nos indican que dos cosas están sucediendo a la vez. Generalmente, se usan en la mitad o en el desarrollo de una historia. Ejemplo:
+                    p Este tipo de conectores temporales son los que nos indican que dos cosas están sucediendo a la vez. Generalmente, se usan en la mitad o en el desarrollo de una historia.
                       br
                       br
                       |#[b Ejemplo: ]
@@ -308,7 +308,7 @@
       span.r--gris / Ahora, es su turno de usar las expresiones de transición de tiempo en el pasado. Complete el siguiente diálogo.
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Titulo de actividad - Completa la conversación.
+      template(#titulo-actividad) Completa la conversación.
       template(#descripcion-actividad) 
       
 </template>

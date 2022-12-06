@@ -218,11 +218,11 @@
                   | To differentiate between these two tenses, time markers can be used to indicate whether it is something that was planned or expected to be done in the past or in the future.
             div(slot="textoEspanol")
                 p Cuando se habla de las expresiones #[em #[b "was/were going to"]] o #[em #[b "was/were supposed to"]], implica que alguien espera que se realizara alguna acción en el pasado o en el futuro. Para hacer la diferencia entre estos dos tiempos, se pueden utilizar marcadores temporales para señalar si es algo que se planeaba hacer o que se tenía la expectativa de que se realizara en el pasado o en el futuro.
-                  br
-                  |Por ejemplo, no es lo mismo:
+                  
 
         .col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/6.jpg', alt='' style='border-radius: 20px')
-      h4.text-center.fst-italic For example, it is not the same:
+      h4.text-center.fst-italic For example, it is not the same: / 
+        span.fst-normal Por ejemplo, no es lo mismo:
       .row.justify-content-center.mb-5
         .col-lg-5
           .tarjeta.p-4.d-flex.aling-items-center.h-100(style='background-color: #6b8dfc')

@@ -25,9 +25,6 @@
               p.fst-italic If the sound of the word isn’t pronounced correctly, it could cause confusion and misunderstanding since the receiver would understand incorrectly. Many misunderstandings are due to mispronunciation or poor intonation. Knowing that we pronounce correctly gives us power. When we know that we have a good pronunciation we want to talk and interact more since we feel comfortable talking because we know that we pronounce well. 
             div(slot="textoEspanol")
               p Si el sonido de la palabra no es pronunciado correctamente, podría causar confusiones y malentendidos, debido a que el receptor entendería incorrectamente. Muchos malentendidos son por causa de una mala pronunciación o pobre entonación. Saber que pronunciamos correctamente nos da poder. Cuando sabemos que tenemos una buena pronunciación, queremos hablar e interactuar más, ya que nos sentimos cómodos conversando porque sabemos que pronunciamos bien. 
-                br
-                br
-                |El siguiente diálogo nos permitirá entrar en la temática.
 
         .col-lg-3.col-6(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema4/2.png', alt='')
@@ -79,7 +76,7 @@
                     | present the project?
                   Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/temas/audios/c/h22_3.mp3')")
                 .contenedor-traductor__esp(:class="{ mostrar: dial3}")
-                  p ¿En serio? ¿Ustedes presentaron el proyecto?
+                  p ¿Ustedes presentaron el proyecto?
                 a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fed947') Ver traducción
           .row.justify-content-center.align-items-center.mb-2
             .col-10 
@@ -580,8 +577,8 @@
                           h5.mb-0.me-5 Food
                           Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/33.mp3')")
                       .col-lg-6
-                        .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
-                          h5.mb-0.me-5 Understood
+                        .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-center.mb-3 
+                          h5.mb-0.me-2 Understood
                           Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/34.mp3')")
               div.mx-3 
                 h5.text-center
@@ -596,7 +593,7 @@
                     .row.justify-content-center
                       .col-lg-6
                         .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
-                          h5.mb-0.me-5 Bamboo
+                          h5.mb-0.me-2 Bamboo
                           Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/35.mp3')")
                       .col-lg-6
                         .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
@@ -604,7 +601,7 @@
                           Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/36.mp3')")
                       .col-lg-6
                         .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
-                          h5.mb-0.me-5 Kangaroo
+                          h5.mb-0.me-1 Kangaroo
                           Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/37.mp3')")
                       .col-lg-6
                         .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
@@ -616,7 +613,7 @@
                           Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/39.mp3')")
                       .col-lg-6
                         .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
-                          h5.mb-0.me-5 Balloon
+                          h5.mb-0.me-2 Balloon
                           Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/40.mp3')")
               div.mx-3 
                 h5.text-center
@@ -734,7 +731,7 @@
                 .row.justify-content-center
                   .col-lg-4
                     .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
-                      h5.mb-0.me-5 Wouldstyle="width: 80px"
+                      h5.mb-0.me-5 Would
                       Audio.color-acento-botones.m-auto(:audio="require('@/assets/curso/temas/audios/tema4/59.mp3')")
                   .col-lg-4
                     .tarjeta.color-acento-contenido--borde.border-2.d-flex.align-items-center.px-3.py-2.bg-white.justify-content-between.mb-3 
@@ -938,11 +935,10 @@ export default {
       dialogo: [
         {
           personaje: 'Carla',
-          textoIng:
-            'What a bummer! Wasn’t they supposed to ***  you the visa less than 2 months after it was approved?I’ven’t felt bad or anything like *** .  ↘',
+          textoIng: 'I’ven’t felt bad or anything like *** .  ↘',
           textoEsp: '',
           audio: require('@/assets/curso/temas/audios/c/H35.mp3'),
-          palabra: 'Greg',
+          palabra: 'that',
         },
 
         {
@@ -951,7 +947,7 @@ export default {
             'That’s good! Do you know *** ? . ↘↗ <br> He’sn’t here because he was sent to the hospital.',
           textoEsp: '',
           audio: require('@/assets/curso/temas/audios/tema4/a2.mp3'),
-          palabra: 'that',
+          palabra: 'Greg',
         },
       ],
     },

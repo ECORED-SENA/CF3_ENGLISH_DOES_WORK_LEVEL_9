@@ -45,7 +45,7 @@
                   p #[b ¿Cómo ordenar los eventos en una historia?]
                     br
                     br
-                    |Los acontecimientos en una historia pueden ordenarse de una manera lógica y cronológica  (#[b narración lineal]); de una forma no cronológica, que comience en la mitad y  que salte en el tiempo entre varios momentos del pasado y del presente, constantemente  ( #[b narración no lineal]); o también se puede comenzar al final de la historia y volver a los orígenes de la narración  ( #[b narración circular] - este estilo se usa más que todo en la ficción).
+                    |Los acontecimientos en una historia pueden ordenarse de una manera lógica y cronológica  (#[b narración lineal]); de una forma no cronológica, que comience en la mitad y  que salte en el tiempo entre varios momentos del pasado y del presente, constantemente  (#[b narración no lineal]); o también se puede comenzar al final de la historia y volver a los orígenes de la narración  (#[b narración circular] - este estilo se usa más que todo en la ficción).
     p(data-aos='fade-right') 
       span.r--3 #[em Here, initially, we are going to learn the most traditional way of telling a story, which is through a linear narrative.] 
       span.r--gris / Aquí, en un principio, vamos a aprender la forma más tradicional de contar una historia, que es por medio de una narración lineal.
